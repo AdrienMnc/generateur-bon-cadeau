@@ -17,6 +17,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
 <!-- Afficher les resultats -->
 <?php if (isset($newBonCadeau)) { ?>
     <h2>Nouveau produit créé</h2>
