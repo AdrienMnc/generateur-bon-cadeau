@@ -22,17 +22,17 @@ require_once __DIR__ . "/class/BonCadeau.class.php";
     <form action="Resultat.bon.php" method="POST">
         <div>
             <label for="">Montant du bon:</label>
-            <input name="prix" type="number" min="10" max="10000">
+            <input name="prix" type="number" min="10" max="10000" required>
         </div>
 
         <div>
             <label for="">Nom et Prénom du bénéficiaire:</label>
-            <input name="nom_prenom_receveur" type="text">
+            <input name="nom_prenom_receveur" type="text" required>
         </div>
 
         <div>
             <label for="">Le nom et le prénom de la personne offrant le bon:</label>
-            <input name="nom_prenom_offreur" type="text">
+            <input name="nom_prenom_offreur" type="text" required>
         </div>
 
 
